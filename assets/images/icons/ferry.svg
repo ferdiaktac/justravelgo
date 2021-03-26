@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1716" data-name="Rectangle 1716" width="16" height="16" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="ferry" clip-path="url(#clip-path)">
+    <g id="ferry-boat" transform="translate(0)">
+      <path id="Path_11152" data-name="Path 11152" d="M15.063,14.276a.786.786,0,1,1-1.573,0h-.937a.786.786,0,0,1-1.573,0h-.937a.786.786,0,1,1-1.573,0H7.531a.786.786,0,0,1-1.573,0H5.021a.786.786,0,0,1-1.573,0H2.51a.786.786,0,1,1-1.573,0H0a1.723,1.723,0,0,0,2.979,1.18,1.72,1.72,0,0,0,2.51,0,1.72,1.72,0,0,0,2.51,0,1.72,1.72,0,0,0,2.51,0,1.72,1.72,0,0,0,2.51,0A1.723,1.723,0,0,0,16,14.276Z" transform="translate(0)" fill="#fff"/>
+      <path id="Path_11153" data-name="Path 11153" d="M7.531,13.339V8.893L1.449,10.864l.561,2.474Z" transform="translate(0)" fill="#fff"/>
+      <path id="Path_11154" data-name="Path 11154" d="M15.132,8.3,8.469,6.139V7.908l6.29,2.038Z" transform="translate(0)" fill="#fff"/>
+      <path id="Path_11155" data-name="Path 11155" d="M8.469,13.339H13.99l.561-2.474L8.469,8.893Z" transform="translate(0)" fill="#fff"/>
+      <path id="Path_11156" data-name="Path 11156" d="M2.209,0H13.791V1.625H2.209Z" transform="translate(0)" fill="#fff"/>
+      <path id="Path_11157" data-name="Path 11157" d="M13.879,6.906l-.93-4.344h-9.9l-.93,4.344L8,5Z" transform="translate(0)" fill="#fff"/>
+      <path id="Path_11158" data-name="Path 11158" d="M7.531,7.908V6.139L.868,8.3l.373,1.648Z" transform="translate(0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1712" data-name="Rectangle 1712" width="16" height="16" transform="translate(438 32)" fill="#131c47"/>
+    </clipPath>
+  </defs>
+  <g id="activity-line" transform="translate(-438 -32)" clip-path="url(#clip-path)">
+    <g id="XMLID_5_" transform="translate(438 32)">
+      <path id="XMLID_105_" d="M15.4,4.7a1.2,1.2,0,0,1-1.2-1.2V2.9H1.8v.6A1.2,1.2,0,0,1,.6,4.7H0v6.6H.6a1.2,1.2,0,0,1,1.2,1.2v.6H14.2v-.6a1.2,1.2,0,0,1,1.2-1.2H16V4.7Zm-.6,5.476A2.409,2.409,0,0,0,13.076,11.9H2.924A2.409,2.409,0,0,0,1.2,10.176V5.824A2.409,2.409,0,0,0,2.924,4.1H13.076A2.409,2.409,0,0,0,14.8,5.824Z" fill="#131c47"/>
+      <path id="XMLID_108_" d="M9.031,6.787,8,4.7,6.969,6.787l-2.3.335L6.332,8.747l-.394,2.3L8,9.959l2.061,1.084-.394-2.3,1.668-1.625ZM7.244,7.96l.523-.076L8,7.41l.234.474.523.076-.378.369.089.52L8,8.6l-.467.246.089-.52Z" fill="#131c47"/>
+    </g>
+  </g>
+</svg>

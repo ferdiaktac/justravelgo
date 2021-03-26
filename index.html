@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Justravelgo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="assets/images/icons/favicon.png"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+</head>
+<body>
+
+<header class="header home-head" id="home-head">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-8 col-8 pr-0">
+                <div class="logo">
+                    <a href="#" title="Justravelgo">
+                        <img src="assets/images/header/logo-white.svg" title="Justravelgo" alt="Justravelgo">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-4 col-4">
+                <div class="nav-wrapper d-none-mobile">
+                    <ul class="nav nav-left">
+                        <li><a href="#"><i class="icon icon-fly"></i>Uçak Bileti</a></li>
+                        <li><a href="#"><i class="icon icon-car"></i>Araç Kiralama</a></li>
+                        <li><a href="#"><i class="icon icon-activity"></i>Etkinlik</a></li>
+                    </ul>
+                    <ul class="nav nav-right">
+                        <li><a href="#">Hakkımızda</a></li>
+                        <li><a href="#">İletişim</a></li>
+                        <li><a class="custom-button" href="#">Rezervasyonlarım</a></li>
+                        <li class="nav-select-lang">
+                            <div><span class="flag-icon flag-icon-tr"></span>Türkçe</div>
+                            <ul>
+                                <li><a href="#"><span class="flag-icon flag-icon-us"></span>English</a></li>
+                                <li><a href="#"><span class="flag-icon flag-icon-ru"></span>Russian</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mobile-menu d-none-desktop">
+                    <a href="#" onclick="mobileMenu(1)" class="mobile-menu-trigger">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </a>
+                    <div class="mobile-menu-container">
+                        <div class="mobile-menu-top">
+                            <div class="m-logo">
+                                <img src="assets/images/header/logo.svg" alt="Justravelgo">
+                            </div>
+                            <a href="#" onclick="mobileMenu(2)" class="close-mobile-menu">
+                                <i class="fa fa-close" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="mobile-menu-content">
+                            <ul class="nav">
+                                <li><a href="#"><i class="icon icon-fly"></i>Uçak Bileti</a></li>
+                                <li><a href="#"><i class="icon icon-car"></i>Araç Kiralama</a></li>
+                                <li><a href="#"><i class="icon icon-activity"></i>Etkinlik</a></li>
+                            </ul>
+                            <ul class="nav mt-2">
+                                <li><a href="#">Hakkımızda</a></li>
+                                <li><a href="#">İletişim</a></li>
+                                <li><a href="#">Rezervasyonlarım</a></li>
+                                <li class="mm-dropdown nav-select-lang">
+                                    <a href="#"><span class="flag-icon flag-icon-tr"></span>DİL SEÇİMİNİ DEĞİŞTİR</a>
+                                    <ul class="mm-dropdown-menu">
+                                        <li><a href="#"><span class="flag-icon flag-icon-us"></span>English</a></li>
+                                        <li><a href="#"><span class="flag-icon flag-icon-ru"></span>Russian</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="home-search">
+    <div class="container">
+        <div class="title animated fadeInDown">
+            <h1>Lorem ipsum dolor sit amet, <span class="highlight">Just Travel</span> consectetur</h1>
+        </div>
+        <div class="search-area animated fadeInUp">
+            <div class="row">
+                <div class="col-lg-12 m-p0">
+                    <div class="search-tabs">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a href="#fly-ticket" class="nav-link active show" data-toggle="tab">
+                                    <i class="icon icon-fly-solid"></i>Uçak Bileti
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#bus-ticket" class="nav-link" data-toggle="tab">
+                                    <i class="icon icon-bus-solid"></i>Otobüs Bileti
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#ferry-ticket" class="nav-link" data-toggle="tab">
+                                    <i class="icon icon-ferry-solid"></i>Feribot Bileti
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#car-rent" class="nav-link" data-toggle="tab">
+                                    <i class="icon icon-car-solid"></i>Araç Kiralama
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#activity-ticket" class="nav-link" data-toggle="tab">
+                                    <i class="icon icon-activity-solid"></i>Etkinlik
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade active show" id="fly-ticket">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="input-groups">
+                                                <label><img src="assets/images/icons/fly-blue.svg" alt="">
+                                                    <select name="direct-select" class="direct-select">
+                                                        <option value="round-trip" selected>Gidiş Dönüş</option>
+                                                        <option value="one-direct">Tek Yön</option>
+                                                    </select>
+                                                </label>
+                                                <div class="form-group">
+                                                    <label>
+                                                        <img src="assets/images/icons/pax-blue.svg">
+                                                        <button type="button" class="form-control passenger-selector">
+                                                            1 yolcu
+                                                        </button>
+                                                    </label>
+                                                    <div class="passenger-select">
+                                                        <div class="passenger-select-content">
+                                                            <div class="row">
+                                                                <div class="col-lg-12 col-sm-12 col-xs-12">
+                                                                    <div class="input-group">
+                                                                        <label>Yetişkinler</label>
+                                                                        <select name="adult"
+                                                                                class="form-control passenger-select-input">
+                                                                            <option value="1" selected="">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12 col-sm-12 col-xs-12">
+                                                                    <div class="input-group">
+                                                                        <label>Çocuklar <span>2-11 yaş</span></label>
+                                                                        <select name="kid"
+                                                                                class="form-control passenger-select-input">
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12 col-sm-12 col-xs-12">
+                                                                    <div class="input-group">
+                                                                        <label>Bebekler <span>2 yaş altı</span></label>
+                                                                        <select name="baby"
+                                                                                class="form-control passenger-select-input">
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12 col-sm-12 col-xs-12">
+                                                                    <div class="input-group full-width">
+                                                                        <button type="button"
+                                                                                class="form-control passenger-select-submit"
+                                                                                onclick="$('.passenger-select').fadeOut('normal')">
+                                                                            Uygula
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <label><img src="assets/images/icons/class-blue.svg" alt="">
+                                                    <select name="class-select" class="class-select">
+                                                        <option value="Ekonomi" selected>Ekonomi</option>
+                                                        <option value="Business">Business</option>
+                                                        <option value="Comfort">Comfort</option>
+                                                    </select>
+                                                </label>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="no-transfer"
+                                                           value="no-transfer">
+                                                    <label class="custom-control-label"
+                                                           for="no-transfer" name="no-transfer">Aktarmasız</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="return"
+                                                           value="return">
+                                                    <label class="custom-control-label" for="return" name="return">İade
+                                                        Edileblir</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-content">
+                                            <div class="col-lg-6 col-xs-12 d-flex br-1">
+                                                <div class="width-50">
+                                                    <div class="form-group">
+                                                        <label for="from-fly">Nereden</label>
+                                                        <input class="form-control typeahead" type="text"
+                                                               id="from-fly" name="from-fly"
+                                                               placeholder="Şehir veya havaalanı seçin" required>
+                                                    </div>
+                                                </div>
+                                                <div class="swap-button-container">
+                                                    <button type="button" class="swap-button">
+                                                    </button>
+                                                </div>
+                                                <div class="width-50">
+                                                    <div class="form-group">
+                                                        <label for="to-fly">Nereye</label>
+                                                        <input class="form-control typeahead" type="text"
+                                                               id="to-fly" name="to-fly"
+                                                               placeholder="Şehir veya havaalanı seçin" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-xs-12 d-flex">
+                                                <div class="datepicker-area">
+                                                    <div class="width-50 check-in">
+                                                        <div class="form-group">
+                                                            <label for="fly-checkin">Gidiş Tarihi</label>
+                                                            <input name="fly-checkin" placeholder="Seçiniz" type="text"
+                                                                   class="form-control datepicker checkin"
+                                                                   id="fly-checkin" readonly
+                                                                   required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="divider"></div>
+                                                    <div class="width-50 check-out">
+                                                        <div class="form-group">
+                                                            <label for="fly-checkout">Dönüş Tarihi</label>
+                                                            <input name="fly-checkout" placeholder="Seçiniz" type="text"
+                                                                   class="form-control datepicker checkout"
+                                                                   id="fly-checkout"
+                                                                   readonly
+                                                                   required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn-submit form-find">
+                                                    <img src="assets/images/icons/search.svg" alt="Search">
+                                                    Bilet Bul
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="bus-ticket">
+                                <form>
+                                    <div class="row">
+                                        <div class="form-content">
+                                            <div class="col-lg-6 col-xs-12 d-flex br-1">
+                                                <div class="width-50">
+                                                    <div class="form-group">
+                                                        <label for="from-bus">Nereden</label>
+                                                        <input class="form-control typeahead" type="text"
+                                                               id="from-bus" name="from-bus"
+                                                               placeholder="Nereden" required>
+                                                    </div>
+                                                </div>
+                                                <div class="swap-button-container">
+                                                    <button type="button" class="swap-button swap-bus">
+                                                    </button>
+                                                </div>
+                                                <div class="width-50">
+                                                    <div class="form-group">
+                                                        <label for="to-bus">Nereye</label>
+                                                        <input class="form-control typeahead" type="text"
+                                                               id="to-bus" name="to-bus"
+                                                               placeholder="Nereye" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-xs-12 d-flex">
+                                                <div class="datepicker-area">
+                                                    <div class="check-in">
+                                                        <div class="form-group">
+                                                            <label for="bus-checkin">Gidiş Tarihi</label>
+                                                            <input name="bus-checkin" placeholder="Seçiniz" type="text"
+                                                                   class="form-control datepicker checkin"
+                                                                   id="bus-checkin" readonly
+                                                                   required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn-submit form-find">
+                                                    <img src="assets/images/icons/search.svg" alt="Search">
+                                                    Bilet Bul
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="ferry-ticket">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="input-groups">
+                                                <div class="ferry-types">
+                                                    <div class="custom-control custom-radio">
+                                                        <input type="radio" class="custom-control-input" id="ferry-ido"
+                                                               name="ferry-type" checked>
+                                                        <label class="custom-control-label" for="ferry-ido">İDO</label>
+                                                    </div>
+                                                    <div class="custom-control custom-radio">
+                                                        <input type="radio" class="custom-control-input"
+                                                               id="ferry-greece"
+                                                               name="ferry-type">
+                                                        <label class="custom-control-label" for="ferry-greece">YUNAN
+                                                            ADALARI</label>
+                                                    </div>
+                                                    <div class="custom-control custom-radio">
+                                                        <input type="radio" class="custom-control-input"
+                                                               id="ferry-cyprus"
+                                                               name="ferry-type">
+                                                        <label class="custom-control-label"
+                                                               for="ferry-cyprus">KIBRIS</label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>
+                                                        <img src="assets/images/icons/pax-blue.svg">
+                                                        <button type="button"
+                                                                class="form-control passenger-vehicle-selector">
+                                                            1 yolcu, araçsız
+                                                        </button>
+                                                    </label>
+                                                    <div class="passenger-vehicle-select">
+                                                        <div class="passenger-vehicle-select-content">
+                                                            <div class="row">
+                                                                <div class="col-lg-4 col-sm-4 col-xs-4">
+                                                                    <div class="input-group">
+                                                                        <label>Yetişkin</label>
+                                                                        <select name="adult"
+                                                                                class="form-control passenger-vehicle-select-input">
+                                                                            <option value="1" selected="">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 col-sm-4 col-xs-4">
+                                                                    <div class="input-group">
+                                                                        <label>Çocuk</label>
+                                                                        <select name="kid"
+                                                                                class="form-control passenger-vehicle-select-input">
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 col-sm-4 col-xs-4">
+                                                                    <div class="input-group">
+                                                                        <label>Bebek</label>
+                                                                        <select name="baby"
+                                                                                class="form-control passenger-vehicle-select-input">
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-lg-4 col-sm-4 col-xs-4">
+                                                                    <div class="input-group">
+                                                                        <label>Araç Türü</label>
+                                                                        <select name="vehicle"
+                                                                                class="form-control passenger-vehicle-select-input">
+                                                                            <option value="araçsız">Araçsız</option>
+                                                                            <option value="bicycle">Bisiklet</option>
+                                                                            <option value="bike">Motosiklet</option>
+                                                                            <option value="otomobil">Otomobil</option>
+                                                                            <option value="minibus">Minibüs</option>
+                                                                            <option value="otobus">Otobüs</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 col-sm-4 col-xs-4">
+                                                                    <div class="input-group">
+                                                                        <label>Araç Sayısı</label>
+                                                                        <select name="vehicleCount"
+                                                                                class="form-control passenger-vehicle-select-input">
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 col-sm-4 col-xs-4">
+                                                                    <div class="input-group full-width">
+                                                                        <button type="button"
+                                                                                class="form-control passenger-vehicle-select-submit"
+                                                                                onclick="$('.passenger-vehicle-select').fadeOut('normal')">
+                                                                            KAPAT
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <label><img src="assets/images/icons/ferry-blue.svg" alt="">
+                                                    <select name="direct-select" class="direct-select">
+                                                        <option value="round-trip" selected>Gidiş Dönüş</option>
+                                                        <option value="one-direct">Tek Yön</option>
+                                                    </select>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-content">
+                                            <div class="col-lg-6 col-xs-12 d-flex br-1">
+                                                <div class="width-50">
+                                                    <div class="form-group">
+                                                        <label for="from-ferry">Nereden</label>
+                                                        <select class="from-ferry" id="from-ferry" name="from-ferry"
+                                                                required>
+                                                            <option></option> <!--Please do not remove-->
+                                                            <option value="Samsun">Samsun</option>
+                                                            <option value="İstanbul">İstanbul</option>
+                                                            <option value="Samsun">Samsun</option>
+                                                            <option value="İstanbul">İstanbul</option>
+                                                            <option value="Samsun">Samsun</option>
+                                                            <option value="İstanbul">İstanbul</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="divider dividerfix"></div>
+
+                                                <div class="width-50">
+                                                    <div class="form-group">
+                                                        <label for="to-ferry">Nereye</label>
+                                                        <select class="to-ferry" id="to-ferry" name="to-ferry" required>
+                                                            <option></option> <!--Please do not remove-->
+                                                            <option value="Samsun">Samsun</option>
+                                                            <option value="İstanbul">İstanbul</option>
+                                                            <option value="Samsun">Samsun</option>
+                                                            <option value="İstanbul">İstanbul</option>
+                                                            <option value="Samsun">Samsun</option>
+                                                            <option value="İstanbul">İstanbul</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-xs-12 d-flex">
+                                                <div class="datepicker-area">
+                                                    <div class="width-50 check-in">
+                                                        <div class="form-group">
+                                                            <label for="ferry-checkin">Gidiş Tarihi</label>
+                                                            <input name="ferry-checkin" placeholder="Seçiniz"
+                                                                   type="text"
+                                                                   class="form-control datepicker checkin"
+                                                                   id="ferry-checkin" readonly
+                                                                   required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="divider"></div>
+                                                    <div class="width-50 check-out">
+                                                        <div class="form-group">
+                                                            <label for="ferry-checkout">Dönüş Tarihi</label>
+                                                            <input name="ferry-checkout" placeholder="Seçiniz"
+                                                                   type="text"
+                                                                   class="form-control datepicker checkout"
+                                                                   id="ferry-checkout"
+                                                                   readonly
+                                                                   required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn-submit form-find">
+                                                    <img src="assets/images/icons/search.svg" alt="Search">
+                                                    Bilet Bul
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="car-rent">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="input-groups">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input"
+                                                           id="drop-vehicle">
+                                                    <label class="custom-control-label"
+                                                           for="drop-vehicle">Aracı Farklı bir yerde bırakmak
+                                                        istiyorum</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-content">
+                                            <div class="col-lg-4 col-xs-12 d-flex br-1">
+                                                <div class="row flex-auto">
+                                                    <div class="col-lg-12">
+                                                        <div class="form-group">
+                                                            <label for="from-carrental" class="from-carrental-label">
+                                                                Alış ve Bırakış Yeri</label>
+                                                            <input class="form-control typeahead" type="text"
+                                                                   id="from-carrental" name="from-carrental"
+                                                                   placeholder="Aracı alıp bırakacağınız yeri seçin"
+                                                                   required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 drop-vehicle-to-where d-none">
+                                                        <div class="form-group">
+                                                            <label for="to-carrental">Bırakış Yeri</label>
+                                                            <input class="form-control typeahead" type="text"
+                                                                   id="to-carrental" name="to-carrental"
+                                                                   placeholder="Nereye Bırakacaksınız?" required
+                                                                   disabled>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-xs-12 d-flex">
+                                                <div class="datepicker-area">
+                                                    <div class="width-50 br-1">
+                                                        <div class="form-group">
+                                                            <label for="carrental-checkin">Gidiş Tarihi</label>
+                                                            <input name="carrental-checkin" placeholder="Seçiniz"
+                                                                   type="text"
+                                                                   class="form-control datepicker checkin"
+                                                                   id="carrental-checkin" readonly
+                                                                   required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-50 br-1">
+                                                        <div class="form-group">
+                                                            <label for="carrental-pickup-time">Alış Saati</label>
+                                                            <select name="class-select" class="class-select"
+                                                                    id="carrental-pickup-time">
+                                                                <option value="00:00">00:00</option>
+                                                                <option value="00:30">00:30</option>
+                                                                <option value="01:00">01:00</option>
+                                                                <option value="01:30">01:30</option>
+                                                                <option value="02:00">02:00</option>
+                                                                <option value="10:00" selected>10:00</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-50 br-1">
+                                                        <div class="form-group">
+                                                            <label for="carrental-checkout">Dönüş Tarihi</label>
+                                                            <input name="carrental-checkout" placeholder="Seçiniz"
+                                                                   type="text"
+                                                                   class="form-control datepicker checkout"
+                                                                   id="carrental-checkout"
+                                                                   readonly
+                                                                   required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-50">
+                                                        <div class="form-group">
+                                                            <label for="carrental-drop-time">Bırakış Saati</label>
+                                                            <select name="class-select" class="class-select"
+                                                                    id="carrental-drop-time">
+                                                                <option value="00:00">00:00</option>
+                                                                <option value="00:30">00:30</option>
+                                                                <option value="01:00">01:00</option>
+                                                                <option value="01:30">01:30</option>
+                                                                <option value="02:00">02:00</option>
+                                                                <option value="10:00" selected>10:00</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <button type="submit" class="btn-submit form-find">
+                                                        Ara
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="activity-ticket">
+                                <form>
+                                    <div class="row">
+                                        <div class="form-content">
+                                            <div class="col-lg-4 col-xs-12 d-flex  br-1">
+                                                <div class="form-group">
+                                                    <label for="activity-search">
+                                                        Etkinlik</label>
+                                                    <input class="form-control typeahead" type="text"
+                                                           id="activity-search" name="activity-search"
+                                                           placeholder="Etkinlik ara..."
+                                                           required>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-xs-12 d-flex">
+                                                <div class="width-50 br-1">
+                                                    <div class="form-group">
+                                                        <label for="activity-category">Kategori</label>
+                                                        <select name="category" class="class-select"
+                                                                id="activity-category">
+                                                            <option value="" selected>Herhangi Bir Kategori</option>
+                                                            <option value="1">Aktivite</option>
+                                                            <option value="13">Sahne Sanatları</option>
+                                                            <option value="8">Müzik</option>
+                                                            <option value="12">Sinema</option>
+                                                            <option value="19">Kurs - Eğitim - Workshop</option>
+                                                            <option value="29">Spor</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="width-50 ">
+                                                    <div class="form-group">
+                                                        <label for="activity-location">Konum</label>
+                                                        <select name="location" class="class-select"
+                                                                id="activity-location">
+                                                            <option value="" selected> Herhangi Bir Yer</option>
+                                                            <option value="34"> İstanbul</option>
+                                                            <option value="6"> Ankara</option>
+                                                            <option value="7"> Antalya</option>
+                                                            <option value="35"> İzmir</option>
+                                                            <option value="26"> Eskişehir</option>
+                                                            <option value="1"> Adana</option>
+                                                            <option value="16">Bursa</option>
+                                                            <option value="33"> Mersin</option>
+                                                            <option value="38"> Kayseri</option>
+                                                            <option value="42"> Konya</option>
+                                                            <option value="48"> Muğla</option>
+                                                            <option value="50"> Nevşehir</option>
+                                                            <option value="55"> Samsun</option>
+                                                            <option value="61"> Trabzon</option>
+                                                            <option value="63"> Şanlıurfa</option>
+                                                            <option value="27"> Gaziantep</option>
+                                                            <option value="41"> Kocaeli</option>
+                                                            <option value="21"> Diyarbakır</option>
+                                                            <option value="31"> Hatay</option>
+                                                            <option value="10"> Balıkesir</option>
+                                                            <option value="46"> Kahramanmaraş</option>
+                                                            <option value="65"> Van</option>
+                                                            <option value="9"> Aydın</option>
+                                                            <option value="59"> Tekirdağ</option>
+                                                            <option value="20"> Denizli</option>
+                                                            <option value="54"> Sakarya</option>
+                                                            <option value="47"> Mardin</option>
+                                                            <option value="44"> Malatya</option>
+                                                            <option value="25"> Erzurum</option>
+                                                            <option value="52"> Ordu</option>
+                                                            <option value="3"> Afyonkarahisar</option>
+                                                            <option value="58"> Sivas</option>
+                                                            <option value="2"> Adıyaman</option>
+                                                            <option value="60"> Tokat</option>
+                                                            <option value="72"> Batman</option>
+                                                            <option value="67"> Zonguldak</option>
+                                                            <option value="23"> Elâzığ</option>
+                                                            <option value="43"> Kütahya</option>
+                                                            <option value="17"> Çanakkale</option>
+                                                            <option value="80"> Osmaniye</option>
+                                                            <option value="4"> Ağrı</option>
+                                                            <option value="19"> Çorum</option>
+                                                            <option value="73"> Şırnak</option>
+                                                            <option value="32"> Isparta</option>
+                                                            <option value="28"> Giresun</option>
+                                                            <option value="66"> Yozgat</option>
+                                                            <option value="68"> Aksaray</option>
+                                                            <option value="22"> Edirne</option>
+                                                            <option value="49"> Muş</option>
+                                                            <option value="81"> Düzce</option>
+                                                            <option value="37"> Kastamonu</option>
+                                                            <option value="64"> Uşak</option>
+                                                            <option value="51"> Niğde</option>
+                                                            <option value="39"> Kırklareli</option>
+                                                            <option value="13"> Bitlis</option>
+                                                            <option value="53"> Rize</option>
+                                                            <option value="5"> Amasya</option>
+                                                            <option value="56"> Siirt</option>
+                                                            <option value="14">Bolu</option>
+                                                            <option value="36"> Kars</option>
+                                                            <option value="71"> Kırıkkale</option>
+                                                            <option value="30"> Hakkari</option>
+                                                            <option value="12"> Bingöl</option>
+                                                            <option value="77"> Yalova</option>
+                                                            <option value="15">Burdur</option>
+                                                            <option value="70"> Karaman</option>
+                                                            <option value="78"> Karabük</option>
+                                                            <option value="40"> Kırşehir</option>
+                                                            <option value="24"> Erzincan</option>
+                                                            <option value="11"> Bilecik</option>
+                                                            <option value="57"> Sinop</option>
+                                                            <option value="76"> Iğdır</option>
+                                                            <option value="74"> Bartın</option>
+                                                            <option value="18"> Çankırı</option>
+                                                            <option value="8"> Artvin</option>
+                                                            <option value="29"> Gümüşhane</option>
+                                                            <option value="79"> Kilis</option>
+                                                            <option value="75"> Ardahan</option>
+                                                            <option value="69"> Bayburt</option>
+                                                            <option value="62"> Tunceli</option>
+                                                            <option value="45"> Manisa</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn-submit form-find">
+                                                    <img src="assets/images/icons/search.svg" alt="Search">
+                                                    Etkinlik Ara
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-bottom-shape"></div>
+</section>
+
+<section class="specs inner-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 animated fadeInLeft">
+                <div class="iconed-item">
+                    <img src="assets/images/home/best-price.svg" alt="" width="48" height="48">
+                    <h3>En İyi Fiyat</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 animated fadeInUp">
+                <div class="iconed-item">
+                    <img src="assets/images/home/secure-payment.svg" alt="" width="48" height="48">
+                    <h3>Güvenli Ödeme</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 animated fadeInRight">
+                <div class="iconed-item">
+                    <img src="assets/images/home/support.svg" alt="" width="48" height="48">
+                    <h3>7/24 Destek</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="featured inner-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 pr-lg-5 aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000"
+                 data-aos-delay="300">
+                <div class="featured-item"
+                     style="background-image: linear-gradient(to bottom, rgba(19, 28, 71, 0.6), #131c47),
+                     url(assets/images/home/tour-guide-img.png)">
+                    <img src="assets/images/icons/tour-guide-icon.svg" alt="" width="48" height="48">
+                    <span>Tur rehberine mi ihtiyacınız var?</span>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    <a class="discover" href="#">Keşfet <i class="icon-right-arrow"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 p-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000"
+                 data-aos-delay="300">
+                <div class="section-title"><h2>Öne Çıkan Biletler</h2></div>
+                <ul class="featured-tickets">
+                    <li class="f-ticket-item">
+                        <div class="left">
+                            <h4>İzmir - Antalya</h4>
+                            <span>Uçak Bileti</span>
+                        </div>
+                        <div class="right">
+                            <div class="ticket-price">136.00 TL<span>'den</span></div>
+                            <a href="#">incele</a>
+                        </div>
+                    </li>
+                    <li class="f-ticket-item">
+                        <div class="left">
+                            <h4>İstanbul Ankara</h4>
+                            <span>Otobüs Bileti</span>
+                        </div>
+                        <div class="right">
+                            <div class="ticket-price">136.00 TL<span>'den</span></div>
+                            <a href="#">incele</a>
+                        </div>
+                    </li>
+                    <li class="f-ticket-item">
+                        <div class="left">
+                            <h4>Kuşadası - Samos</h4>
+                            <span>Feribot Bileti</span>
+                        </div>
+                        <div class="right">
+                            <div class="ticket-price">136.00 TL<span>'den</span></div>
+                            <a href="#">incele</a>
+                        </div>
+                    </li>
+                    <li class="f-ticket-item">
+                        <div class="left">
+                            <h4>Park Of İstanbul</h4>
+                            <span>Etkinlik</span>
+                        </div>
+                        <div class="right">
+                            <div class="ticket-price">136.00 TL<span>'den</span></div>
+                            <a href="#">incele</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 pl-lg-5 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1000"
+                 data-aos-delay="300">
+                <div class="featured-item"
+                     style="background-image: linear-gradient(to bottom, rgba(19, 28, 71, 0.6), #131c47),
+                     url(assets/images/home/cappadocia-img.png)">
+                    <img src="assets/images/icons/cappadocia.svg" alt="" width="48" height="48">
+                    <span>Balon ile Kapadokya'yı keşfet</span>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    <a class="discover" href="#">Keşfet <i class="icon-right-arrow"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="recommended-activities inner-page">
+    <div class="container">
+        <div class="section-title"><h2>Önerilen Aktiviteler</h2></div>
+        <div class="row">
+            <div class="col-lg-12 m-p0">
+                <div class="activity-tabs aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000"
+                     data-aos-delay="300">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a href="#antalya" class="nav-link active show" data-toggle="tab">
+                                Antalya
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#beyoglu" class="nav-link" data-toggle="tab">
+                                Beyoğlu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#sisli" class="nav-link" data-toggle="tab">
+                                Şişli
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#istanbul" class="nav-link" data-toggle="tab">
+                                İstanbul
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#ankara" class="nav-link" data-toggle="tab">
+                                Ankara
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#izmir" class="nav-link" data-toggle="tab">
+                                İzmir
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#samsun" class="nav-link" data-toggle="tab">
+                                Samsun
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="activities tab-content aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000"
+                 data-aos-delay="900">
+                <div class="tab-pane fade active show" id="antalya">
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-3.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Faruk Yalçın Hayvanat Bahçesi</div>
+                                <span>Kocaeli - Hayvanat Bahçesi</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-1.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">The Land Of Legends Tema Park</div>
+                                <span>Nevşehir - Sıcak Hava Balonu</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-2.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Forest Kemerburgaz</div>
+                                <span>İstanbul - Eğlence Parkı</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-4.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Park Of İstanbul</div>
+                                <span>İstanbul - Hayvanat Bahçesi</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="beyoglu">
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-4.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Park Of İstanbul</div>
+                                <span>İstanbul - Hayvanat Bahçesi</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-1.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">The Land Of Legends Tema Park</div>
+                                <span>Nevşehir - Sıcak Hava Balonu</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-2.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Forest Kemerburgaz</div>
+                                <span>İstanbul - Eğlence Parkı</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-3.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Faruk Yalçın Hayvanat Bahçesi</div>
+                                <span>Kocaeli - Hayvanat Bahçesi</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="sisli">
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-1.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">The Land Of Legends Tema Park</div>
+                                <span>Nevşehir - Sıcak Hava Balonu</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-3.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Faruk Yalçın Hayvanat Bahçesi</div>
+                                <span>Kocaeli - Hayvanat Bahçesi</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-2.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Forest Kemerburgaz</div>
+                                <span>İstanbul - Eğlence Parkı</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-4.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Park Of İstanbul</div>
+                                <span>İstanbul - Hayvanat Bahçesi</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="istanbul">
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-1.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">The Land Of Legends Tema Park</div>
+                                <span>Nevşehir - Sıcak Hava Balonu</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-2.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Forest Kemerburgaz</div>
+                                <span>İstanbul - Eğlence Parkı</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-3.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Faruk Yalçın Hayvanat Bahçesi</div>
+                                <span>Kocaeli - Hayvanat Bahçesi</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-4.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Park Of İstanbul</div>
+                                <span>İstanbul - Hayvanat Bahçesi</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="ankara">
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-1.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">The Land Of Legends Tema Park</div>
+                                <span>Nevşehir - Sıcak Hava Balonu</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-2.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Forest Kemerburgaz</div>
+                                <span>İstanbul - Eğlence Parkı</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-4.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Park Of İstanbul</div>
+                                <span>İstanbul - Hayvanat Bahçesi</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-3.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Faruk Yalçın Hayvanat Bahçesi</div>
+                                <span>Kocaeli - Hayvanat Bahçesi</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="izmir">
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-3.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Faruk Yalçın Hayvanat Bahçesi</div>
+                                <span>Kocaeli - Hayvanat Bahçesi</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-1.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">The Land Of Legends Tema Park</div>
+                                <span>Nevşehir - Sıcak Hava Balonu</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-2.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Forest Kemerburgaz</div>
+                                <span>İstanbul - Eğlence Parkı</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-4.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Park Of İstanbul</div>
+                                <span>İstanbul - Hayvanat Bahçesi</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="samsun">
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-1.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">The Land Of Legends Tema Park</div>
+                                <span>Nevşehir - Sıcak Hava Balonu</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-3.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Faruk Yalçın Hayvanat Bahçesi</div>
+                                <span>Kocaeli - Hayvanat Bahçesi</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-2.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Forest Kemerburgaz</div>
+                                <span>İstanbul - Eğlence Parkı</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="activity-item">
+                            <div class="activity-img">
+                                <img src="assets/images/demo/demo-act-4.png" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">Park Of İstanbul</div>
+                                <span>İstanbul - Hayvanat Bahçesi</span>
+                                <div class="bottom">
+                                    <span class="price">250.00 TL</span>
+                                    <span class="view-btn" href="#">incele <i class="icon-right-arrow"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="blog inner-page">
+    <div class="container">
+        <div class="section-title"><h2>Bir sonraki seyahatiniz için fikirler</h2></div>
+        <div class="row">
+            <div class="col-lg-8 aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000"
+                 data-aos-delay="300">
+                <a href="#" class="blog-wrapper big-blog">
+                    <div class="blog-img">
+                        <img src="assets/images/demo/blog-big-img.png" alt="">
+                    </div>
+                    <div class="blog-detail">
+                        <h4 class="title">Lorem ipsum dolor sit amet, consetetur</h4>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1000"
+                 data-aos-delay="600">
+                <div class="row">
+                    <div class="col-lg-12 mb-4">
+                        <a href="#" class="blog-wrapper small-blog">
+                            <div class="blog-img">
+                                <img src="assets/images/demo/blog-img-1.png" alt="">
+                            </div>
+                            <div class="blog-detail">
+                                <h4 class="title">Lorem ipsum dolor sit</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-12">
+                        <a href="#" class="blog-wrapper small-blog">
+                            <div class="blog-img">
+                                <img src="assets/images/demo/blog-img-2.png" alt="">
+                            </div>
+                            <div class="blog-detail">
+                                <h4 class="title">Lorem ipsum dolor sit</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="footer">
+                <div class="col-lg-3">
+                    <div class="title">Bize Ulaşın</div>
+                    <ul>
+                        <li><a href="#">Web Sitesi Geri Bildirimi</a></li>
+                        <li><a href="#">Müşteri Desteği</a></li>
+                    </ul>
+                    <div class="social-links">
+                        <ul>
+                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            </a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i> </a>
+                            </li>
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i> </a>
+                            </li>
+                            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="title">Hakkında</div>
+                    <ul>
+                        <li><a href="#">Hakkımızda</a></li>
+                        <li><a href="#">Hizmet Garantisi</a></li>
+                        <li><a href="#">Haberler</a></li>
+                        <li><a href="#">Hüküm ve Koşullar</a></li>
+                        <li><a href="#">Gizlilik Bildirimi</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <div class="title">Hizmetler</div>
+                    <ul>
+                        <li><a href="#">Uçak Bileti</a></li>
+                        <li><a href="#">Otobüs Bileti</a></li>
+                        <li><a href="#">Feribot Bileti</a></li>
+                        <li><a href="#">Araç Kiralama</a></li>
+                        <li><a href="#">Etkinlikler</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <div class="title">Ödeme Yöntemleri</div>
+                    <ul class="card-logos">
+                        <li><img src="assets/images/footer/visa.png" alt="Visa"></li>
+                        <li><img src="assets/images/footer/mastercard.png" alt="Mastercard"></li>
+                        <li><img src="assets/images/footer/maestro.png" alt="Maestro"></li>
+                        <li><img src="assets/images/footer/ssl.png" alt="SSL"></li>
+                    </ul>
+                    <ul class="tursab-etc">
+                        <li>
+                            <img src="assets/images/footer/tursab.png" alt="Tursab">
+                            <span>A-123456</span>
+                        </li>
+                        <li>
+                            <img src="assets/images/footer/iata.png" alt="iata">
+                            <span>A-123456</span>
+                        </li>
+                        <li><img src="assets/images/footer/ticket-tr.png" alt="ticket-tr"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="copyright">
+                    Copyright © 2021 Justravelgo.com. All rights reserved
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<a id="back-to-top"></a>
+
+<script src="assets/js/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+<script src="assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/ed60a6a57c.js" crossorigin="anonymous"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/main.js" crossorigin="anonymous"></script>
+<script src="assets/js/typeahead.bundle.js" crossorigin="anonymous"></script>
+<script src="assets/js/bootstrap-datepicker.min.js"></script>
+<script src="assets/js/bootstrap-datepicker.tr.min.js"></script>
+<script src="assets/js/select2.full.min.js"></script>
+<script src="assets/js/aos.js"></script>
+<!--Specific JS to this page-->
+<script>
+    // Swap inputs
+    let firstInput = document.querySelector("#from-fly");
+    let secondInput = document.querySelector("#to-fly");
+    let temp;
+    let inputExchange = document.querySelector(".swap-button");
+    inputExchange.addEventListener("click", exchangeValue);
+
+    function exchangeValue() {
+        temp = firstInput.value;
+        firstInput.value = secondInput.value;
+        secondInput.value = temp;
+    }
+    let firstInput2 = document.querySelector("#from-bus");
+    let secondInput2 = document.querySelector("#to-bus");
+    let temp2;
+    let inputExchange2 = document.querySelector(".swap-bus");
+    inputExchange2.addEventListener("click", exchangeValue2);
+
+    function exchangeValue2() {
+        temp2 = firstInput2.value;
+        firstInput2.value = secondInput2.value;
+        secondInput2.value = temp2;
+    }
+</script>
+<!--Specific JS to this page-->
+</body>
+</html>

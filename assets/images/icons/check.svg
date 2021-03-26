@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2349" data-name="Rectangle 2349" width="16" height="16" transform="translate(305 523)" fill="#f96555" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="check" transform="translate(-305 -523)" clip-path="url(#clip-path)">
+    <path id="fi-rr-check" d="M14.878,2.954,5.666,12.165a.667.667,0,0,1-.945,0L1.159,8.6a.667.667,0,0,0-.945,0h0a.667.667,0,0,0,0,.945l3.564,3.563a2.005,2.005,0,0,0,2.833,0L15.823,3.9a.667.667,0,0,0,0-.944h0a.667.667,0,0,0-.945,0Z" transform="translate(304.981 522.775)" fill="#f96555"/>
+  </g>
+</svg>

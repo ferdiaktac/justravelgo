@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1729" data-name="Rectangle 1729" width="48" height="48" transform="translate(304 762)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="secure-payment" transform="translate(-304 -762)" clip-path="url(#clip-path)">
+    <g id="credit-card_2_" data-name="credit-card (2)" transform="translate(304 762)">
+      <path id="Path_11169" data-name="Path 11169" d="M45,12H3a3,3,0,0,0-3,3V42a3,3,0,0,0,3,3H45a3,3,0,0,0,3-3V15A3,3,0,0,0,45,12Z" fill="#f96555"/>
+      <rect id="Rectangle_1735" data-name="Rectangle 1735" width="48" height="9" transform="translate(0 17.999)" fill="#fff"/>
+      <g id="Group_3417" data-name="Group 3417">
+        <path id="Path_11170" data-name="Path 11170" d="M13.5,36h-6a1.5,1.5,0,0,1,0-3h6a1.5,1.5,0,0,1,0,3Z" fill="#fff"/>
+        <path id="Path_11171" data-name="Path 11171" d="M48,26.837V15a3,3,0,0,0-3-3H21v3c0,9.4,3.576,15.117,12.768,20.409a4.507,4.507,0,0,0,4.473-.006C42.789,32.789,45.957,30.062,48,26.837Z" fill="#fff"/>
+      </g>
+      <path id="Path_11172" data-name="Path 11172" d="M47.091,7.622l-10.5-4.5a1.505,1.505,0,0,0-1.185,0l-10.5,4.5A1.5,1.5,0,0,0,24,9v6c0,8.253,3.051,13.077,11.253,17.8a1.508,1.508,0,0,0,1.494,0C44.949,28.088,48,23.264,48,15V9A1.494,1.494,0,0,0,47.091,7.622Z" fill="#131c47"/>
+      <path id="Path_11173" data-name="Path 11173" d="M34.5,22.5h-.063a1.505,1.505,0,0,1-1.185-.666l-3-4.5a1.5,1.5,0,1,1,2.5-1.662l1.863,2.793,4.716-5.9a1.5,1.5,0,0,1,2.343,1.875l-6,7.5A1.512,1.512,0,0,1,34.5,22.5Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

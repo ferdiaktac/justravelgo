@@ -518,11 +518,11 @@
     }
 
     .hero-bottom-shape{
-        display: none;
+        height: 20px;
     }
 
     .home-search{
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
 
     .bread-crumb-title{
